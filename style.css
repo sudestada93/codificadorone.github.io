@@ -145,4 +145,55 @@ footer {
     height: 50px; 
   }
 
+ @media (max-width: 1000px) {
+    body {
+        max-width: 100%;
+    }
+    
+    .logo {
+        width: 20%;
+        margin-left: 40;
+        padding-top: 5px;
+    }
+    
+    main {
+        display: block;
+        margin-left: 0;
+    }
+    
+    .textarea {
+        margin-top: 50px;
+        height: 300px;
+        margin-left: 110px;
+    }
+
+    .informacion{
+        margin-left: 130px;
+        
+    }
+    
+    .botones {
+        margin-left: 190px;
+        display:flex;
+        justify-content:center
+  }
+    
+  .mensaje {
+    background-image: url("images/gato.png");
+    background-position: center center;
+    margin-left: 110px;
+    margin-top:70px;
+    height: 400px;
+}
+
+
+   footer{
+    margin-left: 140px;
+    padding-top: 50px;
+    height: auto;
+    clear: both;
+}
+
+}
+
   
